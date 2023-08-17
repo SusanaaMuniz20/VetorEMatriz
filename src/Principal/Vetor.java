@@ -1,0 +1,36 @@
+package Principal;
+
+public class Vetor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Vetor é uma sequencia não ordenada de dados do mesmo tipo a contagem do Vetor
+		// é por indice e inicia do incice 0
+		// Vetor não pode conter dados de tipo diferentes
+		// Vetor tbm é conhecido como Array
+		// Vetor é unidimencional, uma direção
+		// os dados do Array são armazenados em um tipo de memória
+		
+		/* (xpto123) = 10, 20, 30, 40
+		 */
+		int array = 5;
+		String nome = "Susana Muniz";
+		
+		int [] numeros = new int [array];
+		numeros [0] = 10;
+		numeros [1] = 20;
+		numeros [2] = 30;
+		numeros [3] = 40;
+		numeros [4] = 50;
+		
+		//numeros [5] = 10;
+		System.out.println("fora do for:" + numeros[0]);
+		
+		for(int contador = 0; contador < nome.length(); contador++) {
+			System.out.println("Dentro do for: " + numeros [contador]);
+		}
+		
+	}
+
+}
